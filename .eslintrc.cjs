@@ -30,5 +30,8 @@ module.exports = {
   },
   rules: {
     "vue/multi-word-component-names": "off",
+    rules: {
+      "prettier/prettier": ["off", { singleQuote: true }],
+    },
   },
 };
